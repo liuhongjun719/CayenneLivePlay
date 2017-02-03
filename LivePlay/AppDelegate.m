@@ -65,8 +65,6 @@
     UINavigationController *myNav = [[UINavigationController alloc]initWithRootViewController:myVC];
     myNav.navigationBarHidden = YES;
     
-    UITabBarController *tab = [[UITabBarController alloc] init];
-    [tab setViewControllers:<#(NSArray<__kindof UIViewController *> * _Nullable)#>]
     
     
     

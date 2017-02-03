@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04AA91C486F58959EB7CEC65 /* libPods-LivePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8B62EDC2C0F69D22576C35 /* libPods-LivePlay.a */; };
+		8E16B8071E44722000C22172 /* ViewModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E16B8061E44722000C22172 /* ViewModelManager.m */; };
+		8E16B80D1E4476CF00C22172 /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E16B80C1E4476CF00C22172 /* UIImage+Barrage.m */; };
 		8E80A7B51DF7B3B40018CE2A /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E80A7B41DF7B3B40018CE2A /* IJKMediaFramework.framework */; };
 		8E80A7BB1DF7B4E20018CE2A /* HJRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E80A7BA1DF7B4E20018CE2A /* HJRootTabBarController.m */; };
 		8E80A7C21DF7B5C30018CE2A /* BroadcastContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E80A7C11DF7B5C30018CE2A /* BroadcastContainerViewController.m */; };
@@ -96,13 +98,16 @@
 		8EF665181DF4FBBD004CFEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF665161DF4FBBD004CFEB2 /* Main.storyboard */; };
 		8EF6651A1DF4FBBD004CFEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF665191DF4FBBD004CFEB2 /* Assets.xcassets */; };
 		8EF6651D1DF4FBBD004CFEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6651B1DF4FBBD004CFEB2 /* LaunchScreen.storyboard */; };
-		8EF665961DF548FD004CFEB2 /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF665951DF548FD004CFEB2 /* UIImage+Barrage.m */; };
 		8EF6659A1DF54918004CFEB2 /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF665991DF54918004CFEB2 /* NSSafeObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06F1037037FF3E1ACACF8B89 /* Pods-LivePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-LivePlay/Pods-LivePlay.release.xcconfig"; sourceTree = "<group>"; };
 		75E9886B106D869512F0B0DF /* Pods-LivePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LivePlay/Pods-LivePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		8E16B8051E44722000C22172 /* ViewModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelManager.h; sourceTree = "<group>"; };
+		8E16B8061E44722000C22172 /* ViewModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelManager.m; sourceTree = "<group>"; };
+		8E16B80B1E4476CF00C22172 /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
+		8E16B80C1E4476CF00C22172 /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
 		8E80A7B41DF7B3B40018CE2A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		8E80A7B91DF7B4E20018CE2A /* HJRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRootTabBarController.h; sourceTree = "<group>"; };
 		8E80A7BA1DF7B4E20018CE2A /* HJRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRootTabBarController.m; sourceTree = "<group>"; };
@@ -254,8 +259,6 @@
 		8EF665481DF52DA0004CFEB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8EF6654E1DF52E8E004CFEB2 /* libBarrageRenderer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBarrageRenderer.a; path = "Pods/../build/Debug-iphoneos/BarrageRenderer/libBarrageRenderer.a"; sourceTree = "<group>"; };
 		8EF6654F1DF52E8E004CFEB2 /* libLFLiveKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLFLiveKit.a; path = "Build/Products/Debug-iphonesimulator/LFLiveKit/libLFLiveKit.a"; sourceTree = "<group>"; };
-		8EF665941DF548FD004CFEB2 /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Barrage.h"; path = "../../../../SSSSSSSs/BarrageRenderer-master/BarrageRendererDemo/BarrageRendererDemo/UIImage+Barrage.h"; sourceTree = "<group>"; };
-		8EF665951DF548FD004CFEB2 /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Barrage.m"; path = "../../../../SSSSSSSs/BarrageRenderer-master/BarrageRendererDemo/BarrageRendererDemo/UIImage+Barrage.m"; sourceTree = "<group>"; };
 		8EF665981DF54918004CFEB2 /* NSSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSafeObject.h; sourceTree = "<group>"; };
 		8EF665991DF54918004CFEB2 /* NSSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSafeObject.m; sourceTree = "<group>"; };
 		AF8B62EDC2C0F69D22576C35 /* libPods-LivePlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LivePlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -296,6 +299,15 @@
 				06F1037037FF3E1ACACF8B89 /* Pods-LivePlay.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E16B8041E44720600C22172 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E16B8051E44722000C22172 /* ViewModelManager.h */,
+				8E16B8061E44722000C22172 /* ViewModelManager.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8E80A7B61DF7B4AC0018CE2A /* Controller */ = {
@@ -515,6 +527,8 @@
 		8E9ECD801E011246004DD72C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				8E16B80B1E4476CF00C22172 /* UIImage+Barrage.h */,
+				8E16B80C1E4476CF00C22172 /* UIImage+Barrage.m */,
 				8E9ECD821E0112A8004DD72C /* NSString+ClipString.h */,
 				8E9ECD831E0112A8004DD72C /* NSString+ClipString.m */,
 			);
@@ -571,6 +585,7 @@
 		8EF6650C1DF4FBBC004CFEB2 /* LivePlay */ = {
 			isa = PBXGroup;
 			children = (
+				8E16B8041E44720600C22172 /* ViewModel */,
 				8E9ECD941E022F8B004DD72C /* SDK */,
 				8E9ECD801E011246004DD72C /* Tool */,
 				8E80A7E61DF7DD220018CE2A /* Request */,
@@ -583,8 +598,6 @@
 				8EF665111DF4FBBD004CFEB2 /* AppDelegate.m */,
 				8EF665131DF4FBBD004CFEB2 /* ViewController.h */,
 				8EF665141DF4FBBD004CFEB2 /* ViewController.m */,
-				8EF665941DF548FD004CFEB2 /* UIImage+Barrage.h */,
-				8EF665951DF548FD004CFEB2 /* UIImage+Barrage.m */,
 				8EF665161DF4FBBD004CFEB2 /* Main.storyboard */,
 				8EF665191DF4FBBD004CFEB2 /* Assets.xcassets */,
 				8EF6651B1DF4FBBD004CFEB2 /* LaunchScreen.storyboard */,
@@ -820,7 +833,6 @@
 				8E9ECD7F1DFFD78F004DD72C /* GiftCollectionViewCell.m in Sources */,
 				8E80A7EC1DF7DF6B0018CE2A /* ModelItem.m in Sources */,
 				8E9ECD411DFA8602004DD72C /* NewbieRecommendCell.m in Sources */,
-				8EF665961DF548FD004CFEB2 /* UIImage+Barrage.m in Sources */,
 				8E9ECD841E0112A8004DD72C /* NSString+ClipString.m in Sources */,
 				8E80A7CE1DF7BBEE0018CE2A /* BroadcastPageViewController.m in Sources */,
 				8E80A8081DF7F9DA0018CE2A /* HomeBannerCell.m in Sources */,
@@ -829,6 +841,7 @@
 				8E9ECD5C1DFE7FC4004DD72C /* RoomViewwerContainerView.m in Sources */,
 				8E9ECD2C1DFA4516004DD72C /* HJBroadcastHeadView.m in Sources */,
 				8E9ECD291DFA44E1004DD72C /* ShowBroadcastViewController.m in Sources */,
+				8E16B80D1E4476CF00C22172 /* UIImage+Barrage.m in Sources */,
 				8E9ECD441DFA8668004DD72C /* BroadcastBannerCell.m in Sources */,
 				8E9ECD931E012464004DD72C /* UserInfoView.m in Sources */,
 				8E9ECD701DFFBD1F004DD72C /* HJGiftContainerView.m in Sources */,
@@ -852,6 +865,7 @@
 				8E80A7C21DF7B5C30018CE2A /* BroadcastContainerViewController.m in Sources */,
 				8E9ECD5F1DFE8052004DD72C /* RoomViewwerCell.m in Sources */,
 				8E9ECD3B1DFA8581004DD72C /* PlatformRecommendCell.m in Sources */,
+				8E16B8071E44722000C22172 /* ViewModelManager.m in Sources */,
 				8E9ECDA51E03D832004DD72C /* HJRefreshPageHeader.m in Sources */,
 				8E9ECD371DFA84AA004DD72C /* BroadcastContainerView.m in Sources */,
 				8E80A8181DF8F3EA0018CE2A /* HomeRecommendCell.m in Sources */,

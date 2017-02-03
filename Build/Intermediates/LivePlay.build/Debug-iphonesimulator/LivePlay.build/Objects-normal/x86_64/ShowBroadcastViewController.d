@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Controller/ShowBroadcastViewController.m \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/PrefixHeader.pch \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Tool/NSString+ClipString.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Model/ModelItem.h \
+  /Users/a123456/Desktop/SSSSSSSs/BarrageRenderer-master/BarrageRendererDemo/BarrageRendererDemo/UIImage+Barrage.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Request/ResponseObject.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Controller/ShowBroadcastViewController.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Modules/module.modulemap \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKKVOController.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKNotificationManager.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKMediaPlayer.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKMediaModule.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKAVMoviePlayerController.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKFFMonitor.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKFFMoviePlayerController.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKFFOptions.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKMPMoviePlayerController.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKMediaPlayback.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/IJKMediaFramework.framework/Headers/IJKMediaFramework.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Request/RequestManager.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/Request/RequestHeader.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/View/RoomViewwerContainerView.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/View/Gift/HJLiveGiftView.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/View/TopInfo/UserInfoView.h \
+  /Users/a123456/Desktop/React/OC_project/CayenneLivePlay/LivePlay/SafeObject/NSSafeObject.h
